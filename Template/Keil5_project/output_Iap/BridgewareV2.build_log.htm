@@ -1,0 +1,537 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ��Vision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 EDY, 1, LIC=VGXG8-3L8AU-BSQYX-HA4RM-ZQP6I-JL05X
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.42.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\git_workstation\edge-oasis-bridgeware-gd-v2-freertos-release1.0\Template\Keil5_project\Project _Iap.uvprojx
+Project File Date:  01/12/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
+Rebuild target 'GD32F10X_HD'
+compiling systick.c...
+compiling adc.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\adc.c(137): warning:  #177-D: variable "total2"  was declared but never referenced
+      uint32_t total0=0,total1=0,total2=0,total3=0,total4=0; ;
+..\..\Core\Src\adc.c(137): warning:  #177-D: variable "total3"  was declared but never referenced
+      uint32_t total0=0,total1=0,total2=0,total3=0,total4=0; ;
+..\..\Core\Src\adc.c(137): warning:  #177-D: variable "total4"  was declared but never referenced
+      uint32_t total0=0,total1=0,total2=0,total3=0,total4=0; ;
+..\..\Core\Src\adc.c: 4 warnings, 0 errors
+compiling coulom.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\coulom.c(335): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint16_t temp=0;
+..\..\Core\Src\coulom.c(336): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i=0;
+..\..\Core\Src\coulom.c(337): warning:  #177-D: variable "p"  was declared but never referenced
+  	int16_t *p;
+..\..\Core\Src\coulom.c(338): warning:  #177-D: variable "temp32"  was declared but never referenced
+  	uint32_t temp32=0;
+..\..\Core\Src\coulom.c(339): warning:  #177-D: variable "soc"  was declared but never referenced
+  	uint16_t soc=0;
+..\..\Core\Src\coulom.c(340): warning:  #177-D: variable "hour"  was declared but never referenced
+  	uint32_t hour=0;
+..\..\Core\Src\coulom.c(341): warning:  #177-D: variable "current"  was declared but never referenced
+  	uint16_t current=0;
+..\..\Core\Src\coulom.c(342): warning:  #177-D: variable "Power"  was declared but never referenced
+  	uint32_t Power=NORMAL_CAPACITY;
+..\..\Core\Src\coulom.c(663): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint16_t i,len=0;
+..\..\Core\Src\coulom.c(663): warning:  #177-D: variable "len"  was declared but never referenced
+  	uint16_t i,len=0;
+..\..\Core\Src\coulom.c(664): warning:  #177-D: variable "SysVolt"  was declared but never referenced
+  	uint16_t SysVolt=0;
+..\..\Core\Src\coulom.c: 12 warnings, 0 errors
+compiling Camp.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\Camp.c: 1 warning, 0 errors
+compiling ble.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\ble.c(1202): warning:  #177-D: variable "size"  was declared but never referenced
+  	uint8_t size=0,ret_len=0;
+..\..\Core\Src\ble.c(1203): warning:  #177-D: variable "ack"  was declared but never referenced
+  	uint8_t ack=FALSE,i=0;
+..\..\Core\Src\ble.c(1203): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t ack=FALSE,i=0;
+..\..\Core\Src\ble.c: 4 warnings, 0 errors
+compiling eeprom.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\eeprom.c(317): warning:  #177-D: variable "erase_counter"  was declared but never referenced
+  	uint32_t erase_counter;
+..\..\Core\Src\eeprom.c(376): warning:  #177-D: variable "i"  was declared but never referenced
+   	uint16_t i;
+..\..\Core\Src\eeprom.c(462): warning:  #177-D: variable "j"  was declared but never referenced
+  	uint16_t i,m,j;
+..\..\Core\Src\eeprom.c(374): warning:  #177-D: function "EEpWrite"  was declared but never referenced
+  static void EEpWrite(uint32_t Address,uint16_t len,uint8_t  *buf)
+..\..\Core\Src\eeprom.c(393): warning:  #177-D: function "EEpRead"  was declared but never referenced
+  static void EEpRead(uint32_t Address,uint16_t len,uint8_t  *buf)
+..\..\Core\Src\eeprom.c(364): warning:  #177-D: function "FlashRead"  was declared but never referenced
+  static void FlashRead(uint32_t PageAddress,uint32_t size,uint32_t* buffer)
+..\..\Core\Src\eeprom.c(9): warning:  #177-D: variable "PageError"  was declared but never referenced
+  static uint32_t PageError = 0;
+..\..\Core\Src\eeprom.c: 8 warnings, 0 errors
+compiling BQ40Z50.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\BQ40Z50.c: 1 warning, 0 errors
+compiling DS1302.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\DS1302.c: 1 warning, 0 errors
+compiling main.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\main.c(577): warning:  #177-D: variable "uxHighWaterMark"  was declared but never referenced
+          UBaseType_t uxHighWaterMark;
+..\main.c(76): warning:  #177-D: variable "xTask1"  was declared but never referenced
+  static TaskHandle_t xTask1 = NULL, xTask2 = NULL;
+..\main.c(76): warning:  #177-D: variable "xTask2"  was declared but never referenced
+  static TaskHandle_t xTask1 = NULL, xTask2 = NULL;
+..\main.c(78): warning:  #177-D: variable "currentUxHighWaterMark"  was declared but never referenced
+  static UBaseType_t currentUxHighWaterMark;
+..\main.c: 5 warnings, 0 errors
+compiling gd32f10x_it.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\gd32f10x_it.c: 1 warning, 0 errors
+compiling AtCmd.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\AtCmd.c(462): warning:  #550-D: variable "json"  was set but never used
+  	uint8_t *json;
+..\..\Core\Src\AtCmd.c(535): warning:  #177-D: variable "temp"  was declared but never referenced
+  	int temp = 0;
+..\..\Core\Src\AtCmd.c(951): warning:  #177-D: variable "tokenstate"  was declared but never referenced
+  	uint8_t tokenstate=0,breakfor=0;
+..\..\Core\Src\AtCmd.c(951): warning:  #177-D: variable "breakfor"  was declared but never referenced
+  	uint8_t tokenstate=0,breakfor=0;
+..\..\Core\Src\AtCmd.c(954): warning:  #177-D: variable "j"  was declared but never referenced
+  	uint16_t i,j;
+..\..\Core\Src\AtCmd.c(1252): warning:  #550-D: variable "tag_len"  was set but never used
+  	uint8_t tag_len,value_len,*p;
+..\..\Core\Src\AtCmd.c(1606): warning:  #223-D: function "OtaParse" declared implicitly
+  			 	OtaParse(p);
+..\..\Core\Src\AtCmd.c(2029): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				 		if(strstr(p_buf,g_UserSet.abacuslist[i])!=NULL)
+..\..\Core\Src\AtCmd.c(1322): warning:  #177-D: variable "pos"  was declared but never referenced
+  	uint16_t pos=0,len_value=0,len_spec=0;
+..\..\Core\Src\AtCmd.c(1322): warning:  #177-D: variable "len_spec"  was declared but never referenced
+  	uint16_t pos=0,len_value=0,len_spec=0;
+..\..\Core\Src\AtCmd.c(1324): warning:  #177-D: variable "temp"  was declared but never referenced
+  	int temp;
+..\..\Core\Src\AtCmd.c(1332): warning:  #177-D: variable "p_gattlist"  was declared but never referenced
+  	GATT1_Def *p_gattlist=NULL;
+..\..\Core\Src\AtCmd.c(1333): warning:  #177-D: variable "tempU16"  was declared but never referenced
+  	uint16_t tempU16;
+..\..\Core\Src\AtCmd.c: 14 warnings, 0 errors
+compiling mqtt.c...
+compiling gps.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\gps.c(126): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint32_t i=0;
+..\..\Core\Src\gps.c(127): warning:  #177-D: variable "p_gps"  was declared but never referenced
+  	uint8_t *p_gps=NULL,clear=0;
+..\..\Core\Src\gps.c: 3 warnings, 0 errors
+compiling JbsBms.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\JbsBms.c(161): warning:  #177-D: variable "error_cnt"  was declared but never referenced
+      uint8_t  error_cnt=0;
+..\..\Core\Src\JbsBms.c(297): warning:  #167-D: argument of type "volatile uint8_t *" is incompatible with parameter of type "uint8_t *"
+      IapDetect(g_Uart485Buf,&RxUart3Counter);
+..\..\Core\Src\JbsBms.c(314): warning:  #550-D: variable "crc"  was set but never used
+  			uint8_t *p,crc,num=0,value=0,ntc=0,cmd=0;
+..\..\Core\Src\JbsBms.c(314): warning:  #177-D: variable "num"  was declared but never referenced
+  			uint8_t *p,crc,num=0,value=0,ntc=0,cmd=0;
+..\..\Core\Src\JbsBms.c(314): warning:  #177-D: variable "value"  was declared but never referenced
+  			uint8_t *p,crc,num=0,value=0,ntc=0,cmd=0;
+..\..\Core\Src\JbsBms.c(268): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint16_t i=0,len=0,j=0;
+..\..\Core\Src\JbsBms.c(269): warning:  #177-D: variable "p"  was declared but never referenced
+  	uint8_t *p;
+..\..\Core\Src\JbsBms.c: 8 warnings, 0 errors
+compiling key.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\key.c(403): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,temp=0;
+..\..\Core\Src\key.c(403): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint8_t i,temp=0;
+..\..\Core\Src\key.c: 3 warnings, 0 errors
+compiling Gatt.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\Gatt.c(234): warning:  #870-D: invalid multibyte character sequence
+  		{"ctmp",&g_GattMem[MEM_ADDR_CTMP],"Controller temperature (uint8_t, 1�?) - Offset: 40, Min: -40",TYPE_INT}, 
+..\..\Core\Src\Gatt.c(235): warning:  #870-D: invalid multibyte character sequence
+  		{"mtpm",&g_GattMem[MEM_ADDR_MTPM],"Motor temperature (uint8_t, 1�?) - Offset: 40, Min: -40, Max: 200",TYPE_INT}, 
+..\..\Core\Src\Gatt.c(322): warning:  #177-D: variable "p"  was declared but never referenced
+  	GATTPROP_Def *p=NULL;
+..\..\Core\Src\Gatt.c(367): warning:  #177-D: variable "p"  was declared but never referenced
+  	GATTPROP_Def *p=NULL;
+..\..\Core\Src\Gatt.c(495): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			if(strcmp(p[id].value,(char*)data)!=0)
+..\..\Core\Src\Gatt.c(505): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			if(strcmp(p[id].value,(char*)data)!=0)
+..\..\Core\Src\Gatt.c(572): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(data,"%s:%d\0",p[id].prop,*((uint16_t*)p[id].value));
+..\..\Core\Src\Gatt.c(576): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(data,"%s:%s\0",p[id].prop,p[id].value);
+..\..\Core\Src\Gatt.c(580): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(data,"%s:%d\0",p[id].prop,*((int16_t*)p[id].value));
+..\..\Core\Src\Gatt.c(584): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(data,"%s:%f\0",p[id].prop,*((float*)p[id].value));
+..\..\Core\Src\Gatt.c(588): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(data,"%s:%d\0",p[id].prop,*((uint32_t*)p[id].value));
+..\..\Core\Src\Gatt.c(1413): warning:  #177-D: variable "meta"  was declared but never referenced
+  	uint8_t count=0,meta=0,head=0;
+..\..\Core\Src\Gatt.c(1414): warning:  #177-D: variable "tempjson"  was declared but never referenced
+  	uint8_t tempjson[128];
+..\..\Core\Src\Gatt.c(1529): warning:  #177-D: variable "j"  was declared but never referenced
+  	uint8_t j,*json,m=0;
+..\..\Core\Src\Gatt.c(1529): warning:  #177-D: variable "m"  was declared but never referenced
+  	uint8_t j,*json,m=0;
+..\..\Core\Src\Gatt.c(1531): warning:  #177-D: variable "p"  was declared but never referenced
+  	GATTPROP_Def *p=NULL;
+..\..\Core\Src\Gatt.c(1532): warning:  #177-D: variable "count"  was declared but never referenced
+  	uint8_t count=0,meta=0,head=0;
+..\..\Core\Src\Gatt.c(1532): warning:  #177-D: variable "meta"  was declared but never referenced
+  	uint8_t count=0,meta=0,head=0;
+..\..\Core\Src\Gatt.c(1532): warning:  #177-D: variable "head"  was declared but never referenced
+  	uint8_t count=0,meta=0,head=0;
+..\..\Core\Src\Gatt.c(1533): warning:  #177-D: variable "tempjson"  was declared but never referenced
+  	uint8_t tempjson[128];
+..\..\Core\Src\Gatt.c: 21 warnings, 0 errors
+compiling OffGrid.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\OffGrid.c: 1 warning, 0 errors
+compiling GsmCom.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\GsmCom.c: 1 warning, 0 errors
+compiling Keyboard.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\Keyboard.c: 1 warning, 0 errors
+compiling Menu.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\Menu.c(171): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=0;
+..\..\Core\Src\Menu.c(171): warning:  #177-D: variable "flag"  was declared but never referenced
+  	uint8_t i,flag=0;
+..\..\Core\Src\Menu.c(172): warning:  #177-D: variable "volt"  was declared but never referenced
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(172): warning:  #177-D: variable "current"  was declared but never referenced
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(172): warning:  #177-D: variable "power"  was declared but never referenced
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(172): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(750): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(842): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(842): warning:  #550-D: variable "flag"  was set but never used
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(843): warning:  #550-D: variable "power"  was set but never used
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(937): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(1011): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(1012): warning:  #550-D: variable "power"  was set but never used
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(1110): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(1110): warning:  #550-D: variable "flag"  was set but never used
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(1111): warning:  #550-D: variable "power"  was set but never used
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c: 17 warnings, 0 errors
+compiling lcd.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\lcd.c: 1 warning, 0 errors
+compiling Pump.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\Pump.c(467): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i=0;
+..\..\Core\Src\Pump.c(657): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint16_t i,len=0;
+..\..\Core\Src\Pump.c(657): warning:  #177-D: variable "len"  was declared but never referenced
+  	uint16_t i,len=0;
+..\..\Core\Src\Pump.c: 4 warnings, 0 errors
+compiling payg.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\payg.c(712): warning:  #177-D: variable "temp"  was declared but never referenced
+  		uint8_t temp[8];
+..\..\Core\Src\payg.c(707): warning:  #177-D: variable "output_en"  was declared but never referenced
+  	uint8_t output_en=TRUE;
+..\..\Core\Src\payg.c: 3 warnings, 0 errors
+compiling SmartBms.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\SmartBms.c(207): warning:  #177-D: variable "pint16"  was declared but never referenced
+  			int16_t *pint16=0,int16=0;
+..\..\Core\Src\SmartBms.c: 2 warnings, 0 errors
+compiling temp.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\temp.c: 1 warning, 0 errors
+compiling at24cxx.c...
+compiling Timer.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\Timer.c: 1 warning, 0 errors
+compiling base64.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\base64.c(55): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	Base64Encode(base64testSrc,base64testEncode,128);
+..\..\Core\Src\base64.c(55): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  	Base64Encode(base64testSrc,base64testEncode,128);
+..\..\Core\Src\base64.c(58): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  	Base64Decode(base64testEncode,base64testSrc);
+..\..\Core\Src\base64.c(58): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  	Base64Decode(base64testEncode,base64testSrc);
+..\..\Core\Src\base64.c: 5 warnings, 0 errors
+compiling ota.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\ota.c(74): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  		p=strstr(buf,"ota\":");
+..\..\Core\Src\ota.c(74): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  		p=strstr(buf,"ota\":");
+..\..\Core\Src\ota.c(79): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			p=strstr(buf,"time");
+..\..\Core\Src\ota.c(79): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			p=strstr(buf,"time");
+..\..\Core\Src\ota.c(82): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				time=atol(p+7);
+..\..\Core\Src\ota.c(87): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			p=strstr(buf,"upgrade");
+..\..\Core\Src\ota.c(87): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			p=strstr(buf,"upgrade");
+..\..\Core\Src\ota.c(97): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"ver");// 更新软件版本�?
+..\..\Core\Src\ota.c(97): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"ver");// 更新软件版本�?
+..\..\Core\Src\ota.c(103): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"key");// 更新软件版本�?
+..\..\Core\Src\ota.c(103): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"key");// 更新软件版本�?
+..\..\Core\Src\ota.c(109): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"size");  //文件大小
+..\..\Core\Src\ota.c(109): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"size");  //文件大小
+..\..\Core\Src\ota.c(112): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  					g_OtaInfor.filesize=atol(p+6);
+..\..\Core\Src\ota.c(115): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"time");  //文件大小
+..\..\Core\Src\ota.c(115): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"time");  //文件大小
+..\..\Core\Src\ota.c(118): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  					g_OtaInfor.time=atol(p+6);
+..\..\Core\Src\ota.c(133): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			p=strstr(buf,"firmware");
+..\..\Core\Src\ota.c(133): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			p=strstr(buf,"firmware");
+..\..\Core\Src\ota.c(137): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"addr");//数据包固件起始地址
+..\..\Core\Src\ota.c(137): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"addr");//数据包固件起始地址
+..\..\Core\Src\ota.c(140): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  					addr=atol(p+6);
+..\..\Core\Src\ota.c(143): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"len");//DATA数据包长�?
+..\..\Core\Src\ota.c(143): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"len");//DATA数据包长�?
+..\..\Core\Src\ota.c(146): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  					len=atol(p+5);
+..\..\Core\Src\ota.c(149): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"crc"); //base64 数据�? CRC
+..\..\Core\Src\ota.c(149): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"crc"); //base64 数据�? CRC
+..\..\Core\Src\ota.c(152): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  					crc=atol(p+7);
+..\..\Core\Src\ota.c(155): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"data");//base64 数据�?
+..\..\Core\Src\ota.c(155): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"data");//base64 数据�?
+..\..\Core\Src\ota.c(166): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  							len=Base64Decode(pack,firmware);
+..\..\Core\Src\ota.c(166): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  							len=Base64Decode(pack,firmware);
+..\..\Core\Src\ota.c(179): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			p=strstr(buf,"complete");
+..\..\Core\Src\ota.c(179): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  			p=strstr(buf,"complete");
+..\..\Core\Src\ota.c(184): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"ver");// 更新软件版本�?
+..\..\Core\Src\ota.c(184): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"ver");// 更新软件版本�?
+..\..\Core\Src\ota.c(190): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				p=strstr(buf,"key");// 更新软件版本�?
+..\..\Core\Src\ota.c(190): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "uint8_t *"
+  				p=strstr(buf,"key");// 更新软件版本�?
+..\..\Core\Src\ota.c(204): warning:  #177-D: variable "auth"  was declared but never referenced
+  					OTA_BIN_AUTH_TypeDef auth;
+..\..\Core\Src\ota.c: 40 warnings, 0 errors
+compiling i2c.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\i2c.c: 1 warning, 0 errors
+compiling system_gd32f10x.c...
+compiling gd32f10x_bkp.c...
+compiling gd32f10x_adc.c...
+compiling sha256.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\sha256.c(235): warning:  #550-D: variable "err_code"  was set but never used
+      ret_code_t       err_code;
+..\..\Core\Src\sha256.c: 2 warnings, 0 errors
+compiling can.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\can.c: 1 warning, 0 errors
+compiling Sif.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\Sif.c: 2 warnings, 0 errors
+compiling gd32f10x_can.c...
+compiling uECC.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Core\Src\uECC.c: 1 warning, 0 errors
+compiling gd32f10x_crc.c...
+compiling gd32f10x_enet.c...
+compiling gd32f10x_dbg.c...
+compiling gd32f10x_exti.c...
+compiling gd32f10x_fwdgt.c...
+compiling gd32f10x_exmc.c...
+compiling gd32f10x_gpio.c...
+compiling gd32f10x_fmc.c...
+compiling gd32f10x_i2c.c...
+compiling gd32f10x_misc.c...
+compiling gd32f10x_dac.c...
+compiling gd32f10x_dma.c...
+assembling startup_gd32f10x_hd.s...
+compiling gd32f10x_pmu.c...
+compiling gd32f10x_rcu.c...
+compiling gd32f10x_sdio.c...
+compiling gd32f10x_usart.c...
+compiling gd32f10x_wwdgt.c...
+compiling gd32f10x_timer.c...
+compiling gd32f10x_rtc.c...
+compiling gd32f10x_spi.c...
+compiling gd32f10x_eval.c...
+compiling heap_4.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\FreeRTOS\portable\MemMang\heap_4.c: 1 warning, 0 errors
+compiling port.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\FreeRTOS\portable\RVDS\ARM_CM3\port.c: 1 warning, 0 errors
+compiling FreeRTOS_CLI.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\CLI\FreeRTOS_CLI.c: 1 warning, 0 errors
+compiling Sample-CLI-commands.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\CLI\Sample-CLI-commands.c: 1 warning, 0 errors
+compiling serial.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\CLI\serial.c(215): warning:  #550-D: variable "pcTaskName"  was set but never used
+  const char *pcTaskName;
+..\..\Firmware\CLI\serial.c: 2 warnings, 0 errors
+compiling UARTCommandConsole.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\CLI\UARTCommandConsole.c: 1 warning, 0 errors
+compiling croutine.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\FreeRTOS\croutine.c: 1 warning, 0 errors
+compiling list.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\FreeRTOS\list.c: 1 warning, 0 errors
+compiling event_groups.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\FreeRTOS\event_groups.c: 1 warning, 0 errors
+compiling stream_buffer.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\FreeRTOS\stream_buffer.c: 1 warning, 0 errors
+compiling queue.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\FreeRTOS\queue.c: 1 warning, 0 errors
+compiling timers.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\FreeRTOS\timers.c: 1 warning, 0 errors
+compiling tasks.c...
+..\..\Core\Inc\sif.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Firmware\FreeRTOS\tasks.c(2046): warning:  #223-D: function "timer2_config" declared implicitly
+          portCONFIGURE_TIMER_FOR_RUN_TIME_STATS();
+..\..\Firmware\FreeRTOS\tasks.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=61168 RO-data=9592 RW-data=1452 ZI-data=36836  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf --bin --output output_iap\BridgewareV2_IAP.bin output_iap\BridgewareV2.axf
+".\output_Iap\BridgewareV2.axf" - 0 Error(s), 185 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: GigaDevice
+                https://gd32mcu.com/data/documents/pack/GigaDevice.GD32F10x_DFP.2.0.3.pack
+                GigaDevice.GD32F10x_DFP.2.0.3
+                GigaDevice GD32F10x Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:/Users/EDY/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
